@@ -1,0 +1,27 @@
+server:
+  port: 2333
+  address: 0.0.0.0
+  
+lavalink:
+  server:
+    password: "033320260802" # 🔥請改成你自己想設的密碼
+    sources:
+      youtube: true
+      bandcamp: true
+      soundcloud: true
+      twitch: true
+      vimeo: true
+      http: true
+      local: false
+    bufferDurationMs: 400
+    youtubePlaylistLoadLimit: 60
+    playerUpdateInterval: 5
+    
+metrics:
+  prometheus:
+    enabled: false
+
+logging:
+  level:
+    root: INFO
+    lavalink: INFO
